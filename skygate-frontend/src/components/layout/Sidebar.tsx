@@ -74,7 +74,7 @@ export default function Sidebar() {
 
             <div className="p-4 border-t border-gray-800">
                 <p className="text-xs text-gray-500 text-center">
-                    v1.0.0 - Sistema Operando
+                    v1.1.0 - Sistema Operando
                 </p>
             </div>
         </aside>
