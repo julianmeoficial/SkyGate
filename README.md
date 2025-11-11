@@ -46,7 +46,7 @@ SkyGate/
 ## Documentación
 
 - **[Backend Documentation](./Backend/BACKEND_DOCUMENTATION.md)** - Arquitectura, API, DFA, WebSocket
-- **[Frontend Documentation](./Frontend/FRONTEND_DOCUMENTATION.md)** - Componentes, hooks, estado, diseño
+- **[Frontend Documentation](./skygate-frontend/FRONTEND_DOCUMENTATION.md)** - Componentes, hooks, estado, diseño
 
 ## Instalación
 
