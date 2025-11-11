@@ -1,0 +1,51 @@
+@"
+# IDEs y Editores
+.idea/
+.vscode/
+*.iml
+*.iws
+*.swp
+*.swo
+*~
+
+# Backend - Maven
+Backend/target/
+Backend/.mvn/
+Backend/mvnw
+Backend/mvnw.cmd
+Backend/HELP.md
+
+# Backend - Logs y Temporales
+Backend/logs/
+Backend/*.log
+Backend/temp/
+Backend/*.tmp
+
+# Backend - Configuraciones locales
+Backend/application-local.properties
+Backend/src/main/resources/application-local.properties
+
+# Frontend - Dependencies
+node_modules/
+skygate-frontend/node_modules/
+Frontend/node_modules/
+
+# Frontend - Build
+skygate-frontend/dist/
+skygate-frontend/build/
+skygate-frontend/.vite/
+
+# Frontend - Environment variables
+skygate-frontend/.env.local
+skygate-frontend/.env.*.local
+
+# OS específicos
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Package managers
+*.lock
+.pnpm-debug.log*
+yarn-error.log*
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
